@@ -24,14 +24,16 @@ That is not a clear error to a user that may not be a developer.  As shown in Fi
 ### Pickle Module
 The pickle module allows for data to be compressed into binary data.  This can be used to transfer data quickly.  “Python pickle module is used for serializing and de-serializing a Python object structure.” (“Geeks for Geeks”, Resource 1, URL).  Another format that is often used is the JSON module.  For this case the pickle method was used.  As seen in Figure 4: Import Pickle, a file was created with data delimited by a comma.  The file is opened, and the data is read into a list of tuples separated by commas.  Then the pickle method is called to compress the data into a binary file.  Since the files are opened, they must be closed.  
 
-
+![Pickle](https://user-images.githubusercontent.com/59658526/91680019-cbcca280-eafe-11ea-9137-924a2e75d1f6.png)
 *Figure 4: Import Pickle*
 
 #### Running Pickle
 As shown in figure 5: Running Pickle, not much appears on the command shell.  Just a question if the user would like to convert to binary file.  Figure 6: .DAT file, shows the work done in the pickle process.  The data is now only machine readable, but the data is still included and available after the file is unpickled.
 
+![RunningPickle](https://user-images.githubusercontent.com/59658526/91680039-db4beb80-eafe-11ea-8134-6e19dad6249e.png)
 *Figure 5: Running Pickle*
 
+![datfile](https://user-images.githubusercontent.com/59658526/91680048-e43cbd00-eafe-11ea-9e1d-44ad2ad4e64e.png)
 *Figure 6: .DAT file*
 
 ## Summary
