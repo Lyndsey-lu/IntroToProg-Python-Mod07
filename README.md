@@ -21,8 +21,31 @@ That is not a clear error to a user that may not be a developer.  As shown in Fi
 ![exceptionError](https://user-images.githubusercontent.com/59658526/91678174-af7a3700-eaf9-11ea-92de-4e57532ab3e9.png)
 *Figure 3: Try-Except Set Error*
 
-### Explanation of Pickling Script
+### Pickle Module
+The pickle module allows for data to be compressed into binary data.  This can be used to transfer data quickly.  “Python pickle module is used for serializing and de-serializing a Python object structure.” (“Geeks for Geeks”, Resource 1, URL).  Another format that is often used is the JSON module.  For this case the pickle method was used.  As seen in Figure 4: Import Pickle, a file was created with data delimited by a comma.  The file is opened, and the data is read into a list of tuples separated by commas.  Then the pickle method is called to compress the data into a binary file.  Since the files are opened, they must be closed.  
 
+
+*Figure 4: Import Pickle*
+
+#### Running Pickle
+As shown in figure 5: Running Pickle, not much appears on the command shell.  Just a question if the user would like to convert to binary file.  Figure 6: .DAT file, shows the work done in the pickle process.  The data is now only machine readable, but the data is still included and available after the file is unpickled.
+
+*Figure 5: Running Pickle*
+
+*Figure 6: .DAT file*
+
+## Summary
+In summary, exception handling is a way to prevent a script from ending too soon due to user error.  The error messages can be more clear to a user that possibly did not fully understand the script’s expectation.  
+There are many different modules that can be added on to the Python package.  Pickle is a way to store large objects of data into binary files.  Those files can be transmitted more easily than a large file of data in English. 
+
+### Resources
+
+1.	“Geeks for Geeks” 
+https://www.geeksforgeeks.org/understanding-python-pickling-example/#:~:text=Python%20pickle%20module%20is%20used,serializing%20a%20Python%20object%20structure.&text=Pickling%20is%20a%20way%20to,object%20in%20another%20python%20script.
+2.	Python Documentation
+https://docs.python.org/3/library/pickle.html
+
+### Code
 
     # ------------------------------------------------- #
     Title: Assignment 07
