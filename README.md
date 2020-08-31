@@ -10,13 +10,17 @@ Pickling is a process that converts large bits of data to binary format for stor
 ### Exception Handling
 The purpose of this exception handling example is to show that when user input fails, the try-except function can catch the error before exiting the script.  For this case, the script asks a user to enter a number.  Figure 1: Exception Handling shows the code for the try-except function.  The try function checks if the user input can be converted from a string to an integer.  If this was not inside a try-except function.  Figure 2: Python Error shows the error received if the try-except function was not utilized.  As you can see from Figure 2, the error message received is “ValueError: invalid literal for int() with base 10: ‘l’. “
 
-Figure 1: Exception Handling
+![Image of Exception Handling Code](https://github.com/Lyndsey-lu/images/ExceptionHandling.png)
+*Figure 1: Exception Handling*
 
-Figure 2: Python Error
+![Image of Python Error](https://github.com/Lyndsey-lu/images/PythonError.png)
+*Figure 2: Python Error*
 
 That is not a clear error to a user that may not be a developer.  As shown in Figure 3: Try-Except Set Error, the error can be set to ask the user again for a number and provide the details that explain what was entered originally and why it will not work.   This version tells the user that ‘l’ is not a number and asks for the user to try again.  Then the while loop repeats the request for the user to input number. 
 
-Figure 3: Try-Except Set Error
+![Image of Running Exception Handling code](https://github.com/Lyndsey-lu/images/RunExceptionHandling.png)
+*Figure 3: Try-Except Set Error*
+
 ### Explanation of Pickling Script
 
 
