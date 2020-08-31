@@ -18,7 +18,7 @@ The purpose of this exception handling example is to show that when user input f
 
 That is not a clear error to a user that may not be a developer.  As shown in Figure 3: Try-Except Set Error, the error can be set to ask the user again for a number and provide the details that explain what was entered originally and why it will not work.   This version tells the user that ‘l’ is not a number and asks for the user to try again.  Then the while loop repeats the request for the user to input number. 
 
-![Image of Running Exception Handling code](https://github.com/Lyndsey-lu/images/RunExceptionHandling.png)
+![Image of Running Exception Handling code](https://github.com/Lyndsey-lu/images/exceptionError.png)
 *Figure 3: Try-Except Set Error*
 
 ### Explanation of Pickling Script
